@@ -1,0 +1,4 @@
+#!/bin/sh
+export GOPATH=$(pwd)
+export PATH=$PATH:$GOPATH/bin
+echo "Environment is now exported. Have fun!"
